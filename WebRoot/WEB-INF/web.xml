@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteServlet_file</servlet-name>
+    <servlet-class>servlet.DeleteServlet_file</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteServlet_file</servlet-name>
+    <url-pattern>/servlet/DeleteServlet_file</url-pattern>
+  </servlet-mapping>	
+  
+      <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteServlet_video</servlet-name>
+    <servlet-class>servlet.DeleteServlet_video</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteServlet_video</servlet-name>
+    <url-pattern>/servlet/DeleteServlet_video</url-pattern>
+  </servlet-mapping>	
+  
+        <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DownloadServlet_file</servlet-name>
+    <servlet-class>servlet.DownloadServlet_file</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DownloadServlet_file</servlet-name>
+    <url-pattern>/servlet/DownloadServlet_file</url-pattern>
+  </servlet-mapping>
+  
+          <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DownloadServlet_video</servlet-name>
+    <servlet-class>servlet.DownloadServlet_video</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DownloadServlet_video</servlet-name>
+    <url-pattern>/servlet/DownloadServlet_video</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ImageServlet</servlet-name>
+    <servlet-class>servlet.ImageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ImageServlet</servlet-name>
+    <url-pattern>/servlet/ImageServlet</url-pattern>
+  </servlet-mapping>
+  
+       <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LessonServlet</servlet-name>
+    <servlet-class>servlet.LessonServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LessonServlet</servlet-name>
+    <url-pattern>/servlet/LessonServlet</url-pattern>
+  </servlet-mapping>
+  
+         <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginOutServlet_Tea</servlet-name>
+    <servlet-class>servlet.LoginOutServlet_Tea</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginOutServlet_Tea</servlet-name>
+    <url-pattern>/servlet/LoginOutServlet_Tea</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginOutServlet</servlet-name>
+    <servlet-class>servlet.LoginOutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginOutServlet</servlet-name>
+    <url-pattern>/servlet/LoginOutServlet</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet_Tea</servlet-name>
+    <servlet-class>servlet.LoginServlet_Tea</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet_Tea</servlet-name>
+    <url-pattern>/servlet/LoginServlet_Tea</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  
+       <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegServlet</servlet-name>
+    <servlet-class>servlet.RegServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegServlet</servlet-name>
+    <url-pattern>/servlet/RegServlet</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SaveServlet_file</servlet-name>
+    <servlet-class>servlet.SaveServlet_file</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SaveServlet_file</servlet-name>
+    <url-pattern>/servlet/SaveServlet_file</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SaveServlet_video</servlet-name>
+    <servlet-class>servlet.SaveServlet_video</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SaveServlet_video</servlet-name>
+    <url-pattern>/servlet/SaveServlet_video</url-pattern>
+  </servlet-mapping>
+  
+        <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadServlet_file</servlet-name>
+    <servlet-class>servlet.UploadServlet_file</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UploadServlet_file</servlet-name>
+    <url-pattern>/servlet/UploadServlet_file</url-pattern>
+  </servlet-mapping>
+  
+          <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadServlet_video</servlet-name>
+    <servlet-class>servlet.UploadServlet_video</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UploadServlet_video</servlet-name>
+    <url-pattern>/servlet/UploadServlet_video</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
